@@ -1,5 +1,7 @@
+import { Router } from "./router";
+
 export function App() {
   return (
-    <h1>Hello Fincheck</h1>
+    <Router />
   )
 }
