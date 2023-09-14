@@ -14,5 +14,14 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    '@typescript-eslint/quotes': [
+      'error',
+      'single',
+      {
+        'avoidEscape': true,
+        'allowTemplateLiterals': true
+      }
+    ],
+    '@typescript-eslint/semi': ["error", "always"],
   },
 }

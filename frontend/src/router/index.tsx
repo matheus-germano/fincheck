@@ -1,12 +1,12 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import { AuthGuard } from "./AuthGuard";
+import { AuthGuard } from './AuthGuard';
 
-import { AuthLayout } from "../view/layouts/AuthLayout";
+import { AuthLayout } from '../view/layouts/AuthLayout';
 
-import { SignIn } from "../view/pages/SignIn";
-import { SignUp } from "../view/pages/SignUp";
-import { Dashboard } from "../view/pages/Dashboard";
+import { SignIn } from '../view/pages/SignIn';
+import { SignUp } from '../view/pages/SignUp';
+import { Dashboard } from '../view/pages/Dashboard';
 
 export function Router() {
   return (
@@ -24,5 +24,5 @@ export function Router() {
         </Route>
       </Routes>
     </BrowserRouter>
-  )
+  );
 }

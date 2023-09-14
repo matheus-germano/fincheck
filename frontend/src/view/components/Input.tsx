@@ -1,6 +1,6 @@
-import { ComponentProps } from "react";
+import { ComponentProps } from 'react';
 
-interface InputProps extends ComponentProps<"input"> {
+interface InputProps extends ComponentProps<'input'> {
   name: string;
 }
 
@@ -22,5 +22,5 @@ export function Input({ placeholder, name, id, ...props }: InputProps) {
         {placeholder}
       </label>
     </div>
-  )
+  );
 }
